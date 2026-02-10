@@ -8,7 +8,7 @@ The project walks through a complete data science pipeline, starting from raw da
 
 The objective is to understand which factors most influence insurance costs and to develop an accurate prediction model using real-world data.
 
-⸻
+
 
 ## 🎯 Problem Statement
 
@@ -19,7 +19,7 @@ Insurance providers determine premium charges using multiple risk indicators. Ac
 
 This project predicts insurance charges based on personal and lifestyle attributes.
 
-⸻
+
 
 ## 📊 Dataset Information
 
@@ -64,11 +64,9 @@ Regression models were trained to predict insurance charges using structured dat
 5. Model Evaluation
 
 Models were evaluated using:
-	•	Mean Absolute Error (MAE)
-	•	Mean Squared Error (MSE)
-	•	R² Score
+	•	Mean Absolute Error (MAE) , Mean Squared Error (MSE) and R² Score
 
-⸻
+
 
 ## 🧠 Tools and Technologies
 	•	Python
@@ -79,7 +77,7 @@ Models were evaluated using:
 	•	Scikit-learn
 	•	Jupyter Notebook
 
-⸻
+
 
 ## 📈 Key Insights
 	•	Smoking status has the strongest impact on insurance charges.
@@ -87,8 +85,55 @@ Models were evaluated using:
 	•	Insurance costs generally rise with age.
 	•	Lifestyle and health indicators collectively influence pricing.
 
-⸻
+
 
 ## 🚀 How to Run the Project
 
 Clone the Repository
+````
+https://github.com/chighislian/health-insurance-prediction.git
+````
+Install Dependencies 
+````
+pip install pandas numpy matplotlib seaborn scikit-learn notebook
+````
+Launch Notebook
+````
+Health_Insurance_Charges_Prediction.ipynb
+````
+open the notebook file and run  all cells
+## 📂 Project Structure
+````
+health-insurance-prediction/
+│
+├── Health_Insurance_Charges_Prediction.ipynb
+├── insurance.csv
+└── README.md
+````
+## 🏆 Skills Demonstrated
+	•	Data Cleaning and Preparation
+	•	Exploratory Data Analysis
+	•	Feature Engineering
+	•	Regression Modeling
+	•	Model Performance Evaluation
+	•	Data Visualization
+
+
+
+## 🔮 Future Improvements
+	•	Deploy model as a web application
+	•	Test additional machine learning algorithms
+	•	Perform hyperparameter tuning
+	•	Add automated prediction interface
+
+
+
+## 📚 Educational Purpose
+
+This project was developed as part of hands-on machine learning practice using healthcare cost prediction as a real-world use case.
+
+
+
+## 🤝 Contributions
+
+Suggestions and improvements are welcome. Feel free to fork the repository and submit pull requests.
